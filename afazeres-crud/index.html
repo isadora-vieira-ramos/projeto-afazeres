@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Meus afazeres</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css"> 
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&display=swap" rel="stylesheet">
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+            integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+            crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <section class="section__principal">
+            <h2 class="titulo">Meus afazeres</h2>
+            <button class="button__criar">Criar afazer</button>
+        </section>
+        <section id="section__form" class="hidden section__form">
+            <h2 id="cadastrar__titulo">Cadastrar afazer</h2>
+            <form data-formulario>
+                <input class="input__text" type="text" id="nome" placeholder="Nome">
+                <input class="input__text" type="text" id="descricao" placeholder="Descrição">
+                <input type="submit" class="button__criar" id="" value="Salvar"/>
+            </form> 
+        </section>
+        <section>
+            <ul class="lista" id="listaAfazeres">
+            </ul>
+        </section>
+        <section class="section__principal">
+            <button class="btnErro" id="btnErro">Erro</button>
+        </section>
+    </body>
+    <script src="script.js"></script>
+</html>

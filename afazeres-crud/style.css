@@ -1,0 +1,140 @@
+:root{
+    --vermelho--principal:#cc2a36;
+    --laranja:#f77f00;
+    --azul:#00a0b0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: white;
+    font-family: "Afacad Flux", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+    "slnt" 0;
+}
+
+.section__principal{
+    margin-top: 5em;
+    margin-left: 2em;
+    margin-bottom: 2em;
+}
+
+.titulo{
+    font-size: 35px;
+    color: var(--vermelho--principal);
+    margin-bottom: 1em;
+}
+
+.button__criar{
+    border-radius: 10px;
+    border: 2px solid var(--azul);
+    padding: 10px;
+    background-color: var(--azul);
+    color: white;
+}
+
+.button__criar:hover{
+    background-color: transparent;
+    color: var(--azul);
+}
+
+.app__section-task-list-item {
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    border-radius: 0.8rem;
+    background: var(--fundo-card);
+    margin-bottom: 0.8rem;
+    padding: 1.6rem;
+    box-sizing: border-box;
+    cursor: pointer;
+
+}
+
+.item__lista{
+    border-radius: 10px;
+    border: 2px solid var(--azul);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top:10px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.btnExcluir{
+    border: 2px solid var(--vermelho--principal);
+    background-color: transparent;
+    color: var(--vermelho--principal);
+    border-radius: 10px;
+    margin:5px;
+    padding: 5px;
+}
+
+.btnAlterar{
+    border: 2px solid var(--laranja);
+    background-color: transparent;
+    color: var(--laranja);
+    border-radius: 10px;
+    margin:5px;
+    padding: 5px;
+}
+
+.lista{
+    margin: 20px;
+    list-style-type: none;
+}
+
+.hidden{
+    display: none;
+}
+
+.section__form{
+    margin:30px;
+}
+
+.input__text{
+    width: 100%;
+    border-radius: 5px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+.text{
+    border: none;
+    display: inline;
+    font-family: inherit;
+    font-size: inherit;
+    padding: none;
+    width: auto;
+}
+
+.text:focus{
+    outline:none;
+}
+
+.title{
+    display: block;
+    font-size: 1.5em;
+    font-weight: bold;
+    unicode-bidi: isolate;
+    border:none;
+}
+
+
+.title:focus{
+    outline:none;
+}
+
+.btnErro{
+    border-radius: 10px;
+    border: 2px solid var(--vermelho--principal);
+    padding: 10px;
+    background-color: var(--vermelho--principal);
+    color: white;
+}
